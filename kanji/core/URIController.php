@@ -67,7 +67,7 @@ class URIController {
 	
 	
 	
-	private function setUriIgnore ($path)
+	public function setUriIgnore ($path)
 	{
 		if (isset ($path))
 		{
@@ -77,7 +77,7 @@ class URIController {
 	
 	
 	
-	private function getUriIgnore ()
+	public function getUriIgnore ()
 	{
 	
 		return $this->uriIgnore;

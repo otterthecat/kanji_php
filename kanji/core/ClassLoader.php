@@ -48,7 +48,7 @@ class ClassLoader{
 			require_once (self::$path.$uri -> nameOfClass.".php");
 
 			// generate requested class instance
-			$instance = new $uri -> nameOfClass ();
+			$instance = new $uri -> nameOfClass ($uri -> getUriIgnore());
 
 			// generate and set refection method object
 			// if method exists, determine value

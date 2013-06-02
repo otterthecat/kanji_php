@@ -14,11 +14,12 @@ abstract class Kanji extends Bootstrap {
 
 	abstract public function init ();
 
-	public function __construct ()
+	public function __construct ($uri_path)
 	{
 
 		parent::__construct ();
 
+		$this->setData("kanji_path", $uri_path);
 		$this -> setViewPath ($this -> viewPathPrefix . lcfirst (get_class ($this)) . "View.php");
 	}
 

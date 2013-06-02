@@ -9,8 +9,8 @@
 			</hgroup>
 			<nav>
 				<ul>
-					<li><a href="">Menu Item 1</a></li>
-					<li><a href="">Menu Item 2</a></li>
+					<li><a href="<?php echo $kanji_path; ?>/home/one/">Menu Item 1</a></li>
+					<li><a href="<?php echo $kanji_path; ?>/home/two/">Menu Item 2</a></li>
 				</ul>
 			</nav>
 		</header>
