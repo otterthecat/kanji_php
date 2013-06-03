@@ -28,7 +28,7 @@ Any class file in the /app directory should extend the Kanji class (see Home.php
 
     class MyPage extends Kanji {
   
-      // called by referencign the class only (no public methods)
+      // called by referencing the class only (no public methods)
       // such as /myPage
       public function init ()
       {
